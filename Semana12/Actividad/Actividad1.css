@@ -1,0 +1,40 @@
+.caja{
+    background-color: white;
+    border-radius: 22px;
+    padding: 15px;
+    border: rgb(15, 15, 121) 3px solid;
+    width: 700px;
+    height: 240px;
+    padding: 30px;
+    margin: 0 auto;
+}
+.caja p {
+    text-align: justify;
+}
+button{
+    background-color: rgb(112, 190, 33);
+    border-radius: 22px;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border: rgb(112, 190, 33);
+    margin: 15px;
+
+}
+button:hover{
+    color: black;
+    border-color: 5px solid green;
+    border: 5px solid red;
+}
+
+.caja:hover{
+    border: 10px solid palevioletred;
+    transition: .5s;
+    box-shadow: 5px 5px 15px blue;
+}
+.caja:not(:hover){
+    transition: .5s;
+}
+h1:hover{
+    box-shadow: 8px 5px 15px yellowgreen;
+}

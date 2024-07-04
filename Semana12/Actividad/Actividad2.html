@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0 auto;
+        }
+
+        .principal {
+            color: rgb(255, 102, 0);
+            font-size: 52px;
+            text-shadow: 5px 5px 11px rgb(240, 227, 45);
+            margin-top: 25px;
+        }
+        .principal:hover{
+            color: rgb(160, 36, 36);
+            transition-duration: 5ms;
+        }
+
+        body {
+            background-color: rgb(27, 26, 26);
+            text-align: center;
+            
+        }
+
+        .caja {
+            width: 800px;
+        }
+
+        p {
+            color: white;
+            background-color: rgb(73, 113, 201);
+            border-radius: 10px;
+            font-size: 35px;
+            
+
+        }
+
+        nav {
+            background-color: white;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            width: 780px;
+
+        }
+
+        section {
+            background-color: rgb(73, 113, 201);
+            margin: 15px auto;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            height: 210px;
+            width: 370px;
+
+        }
+
+        article p{
+            background-color: rgb(40, 60, 104);
+            height: 135px;
+            width: 350px;
+            margin-bottom: 10px;
+
+
+    
+
+        }
+
+        aside p{
+            margin: 15px auto;
+            height: 210px;width: 370px;
+            
+        }
+        button{
+            margin: 15px;
+        }
+        button:hover{
+            color: rgb(226, 70, 43);
+            box-shadow: 15px solid black;
+            transition: 2s;
+            border-color: chartreuse;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="principal">Estructura Semantica con HMTL<sub>5</sub> Y CSS<sub>3</sub></h1>
+    <div class="caja">
+
+        <header>
+            <p style="margin: 10px;">Encabezado</p>
+        </header>
+        <p style="margin: 10px;">Menú</p>
+        <nav>
+            <section>
+                <p style="padding-top: 6px;">sección</p>
+                <article>
+                    <p style="padding-top: 10px;">articulo</p>
+                </article>
+
+
+            </section>
+
+            <aside>
+                <p >aside</p>
+            </aside>
+        </nav>
+
+
+        <footer>
+            <p style="margin: 15px;">Pié de pagina</p>
+        </footer>
+    </div>
+
+    <button><a href="../../index.html">RETURN</a></button>
+
+</body>
+
+</html>
